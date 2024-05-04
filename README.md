@@ -88,6 +88,9 @@ Remember to ensure that the target computer has Remote Desktop access enabled an
 
 
 ![image](https://github.com/derekjonesaa/configure-ad/assets/167825508/2afcd11f-4448-4409-9e09-02a3c0b0fbdf)
+![image](https://github.com/derekjonesaa/configure-ad/assets/167825508/72e64dd4-abaa-4da9-a317-0d6fb59e5b42)
+
+
 
 Setting up Active Directory (AD) involves several steps. Here's a simplified step-by-step guide:
 
