@@ -86,9 +86,30 @@ Remember to ensure that the target computer has Remote Desktop access enabled an
 <p>
 
 
-<p>
+
 ![image](https://github.com/derekjonesaa/configure-ad/assets/167825508/2afcd11f-4448-4409-9e09-02a3c0b0fbdf)
 
+Setting up Active Directory (AD) involves several steps. Here's a simplified step-by-step guide:
+
+1. Install Windows Server: Begin by installing Windows Server on a dedicated machine that will act as the domain controller for Active Directory.
+
+2. Configure the Server: After installation, configure the server with a static IP address and assign it a unique hostname.
+
+3. Promote to Domain Controller: Open the "Server Manager" and click on "Add roles and features." Select the Active Directory Domain Services role and proceed with the installation. After installation, promote the server to a domain controller.
+
+4. Create a New Forest: In the Active Directory Domain Services Configuration Wizard, select "Add a new forest" and specify a domain name for your forest. Note that this domain will become the root of your Active Directory hierarchy.
+
+5. Set Domain and Forest Functional Levels: Set the desired domain and forest functional levels based on the requirements of your environment.
+
+6. Configure DNS: Ensure that Active Directory integrated DNS is installed and configured properly. This enables domain name resolution for Active Directory.
+
+7. Complete the Installation: The installation process will install the necessary services and components, and a reboot may be required to finalize the configuration.
+
+8. Manage Active Directory Users and Computers: Access the "Active Directory Users and Computers" tool to manage users, groups, and organizational units (OUs). You can create user accounts, assign them to groups, and organize them in OUs.
+
+9. Group Policy: Use the Group Policy Management Console to create and manage group policy objects (GPOs). GPOs allow you to define and enforce specific settings, configurations, and restrictions across your domain.
+
+10. Add Additional Domain Controllers (optional): For redundancy and fault tolerance, you can add additional domain controllers to your Active Directory environment. This provides backup in case the primary domain controller becomes unavailable.
 </p>
 <p>
 
