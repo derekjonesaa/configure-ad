@@ -27,3 +27,7 @@ Step 1: Log into Azure --> search "virtual machines" --> click "create azure vir
 
 ![image](https://github.com/derekjonesaa/configure-ad/assets/167825508/e2a62ffc-e6fb-4fdc-8e3a-e2e11aee6fc7)
 Step 2: Go to DC-1's network settings --> select networking --> click the hyperlink next to "network interface" --> "IP Configurations" --> "ipconfig1" --> change the assignment from dynamic to static (this ensures DC-1's IP address will not change) --> check the NIC settings to make sure both VMs are on the same "Vnet". This will ensure both VMs can communicate & connect with each other later in this lab.
+
+![image](https://github.com/derekjonesaa/configure-ad/assets/167825508/21d25b17-d837-4e47-8467-ef822367b83e)
+Step 3: Remote Desktop into DC-1 via windows firewall security settings --> Advanced settings --> inbound/outbound rules to allow "IPV4 permissions" on DC-1's Firewall. This will open the firewall for connectivity after DC-1 is converted into a domain.
+
