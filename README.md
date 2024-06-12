@@ -48,3 +48,6 @@ Step 8: Use Remote Desktop in the system settings to allow domain users access f
 
 ![image](https://github.com/derekjonesaa/configure-ad/assets/167825508/eb5c9ca2-0150-4815-8b63-e21b1a9c2f0a)
 Step 9: Use a random account generating script to create at least 100 users for this lab. Upload script via "Powershell ISE" (run as administrator) to Client-1. This will create 100 new users with random names. This is done to simulate employees within the company.
+
+![image](https://github.com/derekjonesaa/configure-ad/assets/167825508/26dfa6e0-40ba-4da6-911d-901b21ba6ce6)
+Step 10: Log into any newly generated user account on Client-1 VM. The login attempt with the user's name & generic password should be successful. That is the conclusion of this lab.
