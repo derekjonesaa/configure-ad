@@ -36,3 +36,7 @@ Step 4: Ensure communication between both VMs via perpetual ping using cmd:ping 
 
 ![image](https://github.com/derekjonesaa/configure-ad/assets/167825508/ff2d61d1-0b8a-4275-bfb6-f35d9a581022)
 Step 5: Install "Active Directory" on DC-1. Set up DC-1 as a new domain.
+
+![image](https://github.com/derekjonesaa/configure-ad/assets/167825508/294fea66-91cc-4163-b243-a3271df03028)
+Step 6: Remote Desktop into DC-1 to create two "Organzational Units" (OU), one titled "Admins" and another titled "Employees" within Active Directory.
+
