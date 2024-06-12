@@ -34,3 +34,5 @@ Step 3: Remote Desktop into DC-1 via windows firewall security settings --> Adva
 ![image](https://github.com/derekjonesaa/configure-ad/assets/167825508/f8a990a3-3b2d-4070-8d2a-9ebb838a7b0f)
 Step 4: Ensure communication between both VMs via perpetual ping using cmd:ping -t (Ip Address).
 
+![image](https://github.com/derekjonesaa/configure-ad/assets/167825508/ff2d61d1-0b8a-4275-bfb6-f35d9a581022)
+Step 5: Install "Active Directory" on DC-1. Set up DC-1 as a new domain.
