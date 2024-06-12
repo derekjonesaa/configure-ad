@@ -40,3 +40,5 @@ Step 5: Install "Active Directory" on DC-1. Set up DC-1 as a new domain.
 ![image](https://github.com/derekjonesaa/configure-ad/assets/167825508/294fea66-91cc-4163-b243-a3271df03028)
 Step 6: Remote Desktop into DC-1 to create two "Organzational Units" (OU), one titled "Admins" and another titled "Employees" within Active Directory.
 
+![image](https://github.com/derekjonesaa/configure-ad/assets/167825508/9c22bcf0-7231-4b6e-b9ac-1eeefa274eb2)
+Step 7: Change Client-1's "DNS settings" in Azure to match the same private IP Address as DC-1 via network settings in DC-1. Go into Client-1's network settings --> Network Interface (NIC) --> DNS server --> custom DNS settings --> add DC-1's private IP Address as the DNS server to connect to for Client-1. Restart Client-1 to flush the DNS cache --> change Client-1 to the same domain as DC-1 via "about PC" --> rename this PC advanced --> type DC-1's domain name under the "domain section" --> create a new OU named "_clients".
