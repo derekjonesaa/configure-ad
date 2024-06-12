@@ -31,3 +31,6 @@ Step 2: Go to DC-1's network settings --> select networking --> click the hyperl
 ![image](https://github.com/derekjonesaa/configure-ad/assets/167825508/21d25b17-d837-4e47-8467-ef822367b83e)
 Step 3: Remote Desktop into DC-1 via windows firewall security settings --> Advanced settings --> inbound/outbound rules to allow "IPV4 permissions" on DC-1's Firewall. This will open the firewall for connectivity after DC-1 is converted into a domain.
 
+![image](https://github.com/derekjonesaa/configure-ad/assets/167825508/f8a990a3-3b2d-4070-8d2a-9ebb838a7b0f)
+Step 4: Ensure communication between both VMs via perpetual ping using cmd:ping -t (Ip Address).
+
